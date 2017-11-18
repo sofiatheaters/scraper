@@ -12,6 +12,7 @@ const saveOrUpdate = db => url => {
     },
     {
       $set: {
+        url,
         processed: false
       }
     },
